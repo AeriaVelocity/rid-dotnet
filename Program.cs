@@ -1,17 +1,9 @@
-﻿using System;
-using System.Security.Principal;
+using System;
 
 namespace rid
 {
     class Program
     {
-        public bool IsElevated
-        {
-            get
-            {
-                return new WindowsPrincipal(WindowsIdentity.GetCurrent()).IsInRole(WindowsBuiltInRole.Administrator);
-            }
-        }
         static void Main(string[] args)
         {
             Random rnd = new Random();
