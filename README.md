@@ -3,4 +3,4 @@ Joke command for the Windows command line. Prints out sarcastic messages wheneve
 
 The project is targetted for .NET Framework, not .NET Core, so it'll only compile on Windows, unless you took the existing code and retargeted it for .NET Core. (you may have to remove a few lines of code to get it to compile for macOS or Linux)
 
-This is the original but outdated `rid`, a newer version exists which is cross-platform, done in C++.
+This is the original but outdated `rid`, a [newer version](https://www.github.com/SpeedStriker243/rid-cpp) exists which is cross-platform, done in C++.
